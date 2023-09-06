@@ -14,7 +14,7 @@ public class Main {
 //        e.setSize_array(l.getInt("Enter number of array: ", 1, 100));
 //        e.setArray(l.createArray(e.size_array));
         String title = " Menu";
-        String s[]=  new String[]{"bubble sort", "quick sort"};
+        String s[]=  new String[]{"bubble sort", "quick sort","exit"};
        SortProgramming p = new SortProgramming(title, s);
        p.run();
     }

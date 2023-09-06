@@ -42,6 +42,7 @@ public class SortProgramming extends Menu{
                 a.display(array);
                 break;
             }
+                
             default:
             {
                 System.out.println("Just only enter 1 or 2!");
